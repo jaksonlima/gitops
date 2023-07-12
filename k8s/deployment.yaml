@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: goserver
+  name: springserver
 spec:
   selector:
     matchLabels:
-      app: goserver
+      app: springserver
   template:
     metadata:
       labels:
-        app: goserver
+        app: springserver
     spec:
       containers:
-        - name: goserver
-          image: goserver
+        - name: springserver
+          image: springserver
           ports:
             - containerPort: 8080
