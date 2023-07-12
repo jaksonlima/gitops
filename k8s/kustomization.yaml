@@ -11,4 +11,4 @@ images:
   newTag: newTag
 - name: springserver
   newName: jaksonsneider/gitops
-  newTag: d24c294097815a09a13bc439595e92375fb0f770
+  newTag: 3851879dd1948e23660faec9f73e3113cd6df119
