@@ -20,7 +20,7 @@ public class DemoApplication {
 
     @GetMapping(path = "/", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<?> allRequest() {
-        return ResponseEntity.ok(Map.of("response", "All requests"));
+        return ResponseEntity.ok(Map.of("response", "All requests #1"));
     }
 
 }
