@@ -18,7 +18,7 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
 
-    @GetMapping(path = "/api", produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(path = "/", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<?> allRequest() {
         return ResponseEntity.ok(Map.of("response", "All requests"));
     }
